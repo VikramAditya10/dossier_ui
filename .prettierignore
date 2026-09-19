@@ -1,0 +1,7 @@
+node_modules
+dist
+storybook-static
+pnpm-lock.yaml
+test-results
+playwright-report
+Dossier_UI_Framework_Agent_Instructions.md

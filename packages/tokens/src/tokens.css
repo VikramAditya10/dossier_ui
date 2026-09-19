@@ -1,0 +1,84 @@
+/* Generated from tokens.ts. Run pnpm tokens:generate; do not edit by hand. */
+:root, [data-dossier-theme="paper"] {
+  --dossier-paper: #f2f0e9;
+  --dossier-paper-muted: #e8e5dc;
+  --dossier-ink: #242321;
+  --dossier-ink-soft: #4c4943;
+  --dossier-ink-muted: #6c6860;
+  --dossier-rule: #403e39;
+  --dossier-rule-light: #c8c4b9;
+  --dossier-accent-red: #a13c35;
+  --dossier-accent-blue: #355d91;
+  --dossier-accent-green: #3d714f;
+  --dossier-accent-amber: #7d5d20;
+  --dossier-font-mono: "IBM Plex Mono", "JetBrains Mono", "Roboto Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --dossier-text-2xs: 0.625rem;
+  --dossier-text-xs: 0.6875rem;
+  --dossier-text-sm: 0.75rem;
+  --dossier-text-md: 0.875rem;
+  --dossier-text-lg: 1rem;
+  --dossier-text-xl: 1.25rem;
+  --dossier-text-2xl: 1.625rem;
+  --dossier-text-3xl: 2rem;
+  --dossier-space-0: 0;
+  --dossier-space-1: 4px;
+  --dossier-space-2: 8px;
+  --dossier-space-3: 12px;
+  --dossier-space-4: 16px;
+  --dossier-space-5: 20px;
+  --dossier-space-6: 24px;
+  --dossier-space-8: 32px;
+  --dossier-space-10: 40px;
+  --dossier-space-12: 48px;
+  --dossier-radius-xs: 1px;
+  --dossier-radius-sm: 2px;
+  --dossier-radius-md: 3px;
+  --dossier-transition-fast: 120ms ease;
+  --dossier-transition-normal: 180ms ease;
+  --dossier-z-sticky: 10;
+  --dossier-z-dropdown: 20;
+  --dossier-z-overlay: 40;
+  --dossier-z-toast: 60;
+  --dossier-z-tooltip: 70;
+  --dossier-control-height: 34px;
+  --dossier-control-padding: 10px;
+  --dossier-row-padding: 10px;
+  --dossier-density-gap: 12px;
+  color-scheme: light;
+}
+
+[data-dossier-theme="dark"] {
+  --dossier-paper: #161614;
+  --dossier-paper-muted: #22221e;
+  --dossier-ink: #e8e4d9;
+  --dossier-ink-soft: #c2beb3;
+  --dossier-ink-muted: #a49f95;
+  --dossier-rule: #8f8b83;
+  --dossier-rule-light: #46443e;
+  --dossier-accent-red: #e69286;
+  --dossier-accent-blue: #96b7e2;
+  --dossier-accent-green: #96bd9e;
+  --dossier-accent-amber: #d1b46e;
+  color-scheme: dark;
+}
+
+[data-dossier-density="compact"] {
+  --dossier-control-height: 28px;
+  --dossier-control-padding: 6px;
+  --dossier-row-padding: 6px;
+  --dossier-density-gap: 8px;
+}
+
+[data-dossier-density="default"] {
+  --dossier-control-height: 34px;
+  --dossier-control-padding: 10px;
+  --dossier-row-padding: 10px;
+  --dossier-density-gap: 12px;
+}
+
+[data-dossier-density="comfortable"] {
+  --dossier-control-height: 42px;
+  --dossier-control-padding: 14px;
+  --dossier-row-padding: 14px;
+  --dossier-density-gap: 16px;
+}

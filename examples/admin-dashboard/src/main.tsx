@@ -1,0 +1,6 @@
+import { useState } from 'react';
+import { createRoot } from 'react-dom/client';
+import { DossierProvider, Container, DocumentHeader, Section, Field, Input, Select, Switch, Button, Stack, Callout } from '@dossier-ui/react';
+import '@dossier-ui/react/styles.css';
+function App(){const [saved,setSaved]=useState(false);return <DossierProvider><Container maxWidth={760} style={{paddingTop:32,paddingBottom:32}}><DocumentHeader kicker="RELAY / ADMINISTRATION" title="WORKSPACE CONFIGURATION" metadata={[["TENANT","SMARTBUY"],["REV","17"]]}/><Section index="01" title="Delivery settings"><form onSubmit={e=>{e.preventDefault();setSaved(true);}}><Stack><Field label="WORKSPACE NAME" required><Input defaultValue="Relay production"/></Field><Field label="REGION"><Select defaultValue="ap-south-1"><option value="ap-south-1">Asia Pacific · Mumbai</option><option value="eu-west-1">Europe · Ireland</option></Select></Field><Switch label="Enable failure notifications" defaultChecked/><div><Button type="submit" variant="solid">Save configuration</Button></div>{saved&&<Callout tone="success" title="CONFIGURATION SAVED">Your example settings have been updated in this session.</Callout>}</Stack></form></Section></Container></DossierProvider>;}
+createRoot(document.getElementById('root')!).render(<App/>);

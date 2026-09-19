@@ -1,0 +1,53 @@
+{
+  "name": "@dossier-ui/icons",
+  "version": "0.1.0",
+  "description": "Crisp monospace and technical SVG icons for Dossier UI applications",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react-icons",
+    "monospace",
+    "dossier-ui",
+    "technical-ui"
+  ],
+  "author": "Dossier UI Contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/dossier-ui/dossier-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dossier-ui/dossier-ui.git",
+    "directory": "packages/icons"
+  },
+  "bugs": {
+    "url": "https://github.com/dossier-ui/dossier-ui/issues"
+  }
+}

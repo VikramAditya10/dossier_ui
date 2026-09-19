@@ -1,0 +1,45 @@
+{
+  "name": "@dossier-ui/core",
+  "version": "0.1.0",
+  "description": "Scoped CSS foundations, monospace typography, and utility classes for Dossier UI",
+  "type": "module",
+  "main": "./dist/styles.css",
+  "style": "./dist/styles.css",
+  "exports": {
+    ".": "./dist/styles.css",
+    "./styles.css": "./dist/styles.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "dist/styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "css",
+    "foundations",
+    "typography",
+    "monospace",
+    "dossier-ui",
+    "design-system",
+    "paper-theme"
+  ],
+  "author": "Dossier UI Contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/dossier-ui/dossier-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dossier-ui/dossier-ui.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/dossier-ui/dossier-ui/issues"
+  }
+}

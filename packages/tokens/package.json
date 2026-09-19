@@ -1,0 +1,53 @@
+{
+  "name": "@dossier-ui/tokens",
+  "version": "0.1.0",
+  "description": "Design tokens and generated CSS variables for Dossier UI technical interfaces",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./dist/tokens.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "dist/tokens.css"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "tokens",
+    "design-tokens",
+    "css-variables",
+    "dossier-ui",
+    "theme",
+    "monospace"
+  ],
+  "author": "Dossier UI Contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/dossier-ui/dossier-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dossier-ui/dossier-ui.git",
+    "directory": "packages/tokens"
+  },
+  "bugs": {
+    "url": "https://github.com/dossier-ui/dossier-ui/issues"
+  }
+}
