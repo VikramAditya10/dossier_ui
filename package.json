@@ -24,7 +24,8 @@
     "preflight": "node scripts/preflight.mjs",
     "release:check": "pnpm build:packages && pnpm typecheck && pnpm test && node scripts/preflight.mjs",
     "release:dry-run": "pnpm release:check && pnpm -r publish --dry-run --access public",
-    "release": "pnpm release:check && pnpm -r publish --access public --no-git-checks"
+    "release": "pnpm release:check && node scripts/publish.mjs",
+    "publish:all": "node scripts/publish.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",
