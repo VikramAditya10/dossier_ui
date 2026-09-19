@@ -1,6 +1,6 @@
 {
   "name": "@vikramaditya1010/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scoped CSS foundations, monospace typography, and utility classes for Dossier UI",
   "type": "module",
   "main": "./dist/styles.css",

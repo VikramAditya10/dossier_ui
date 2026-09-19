@@ -507,7 +507,7 @@ Example:
   title="EVENT DELIVERY CONTROL PLANE"
   metadata={[
     ["ENV", "PROD"],
-    ["TENANT", "SMARTBUY"],
+    ["TENANT", "ACME-INFRA"],
     ["REGION", "AP-SOUTH-1"],
     ["REV", "17"],
   ]}
@@ -521,7 +521,7 @@ RELAY / COMMUNICATION INFRASTRUCTURE
 
 EVENT DELIVERY CONTROL PLANE
 ────────────────────────────────────────────────────
-ENV PROD   TENANT SMARTBUY   REGION AP-SOUTH-1   REV 17
+ENV PROD   TENANT ACME-INFRA   REGION AP-SOUTH-1   REV 17
 ```
 
 ---
@@ -791,7 +791,7 @@ Field example:
   label="TENANT ID"
   help="Immutable system identifier."
 >
-  <Input value="R360-SMARTBUY" />
+  <Input value="R360-PROD-01" />
 </Field>
 ```
 
@@ -800,7 +800,7 @@ Default appearance:
 ```text
 TENANT ID
 ┌────────────────────────────────┐
-│ R360-SMARTBUY                  │
+│ R360-PROD-01                   │
 └────────────────────────────────┘
 Immutable system identifier.
 ```
@@ -1005,7 +1005,7 @@ Build:
 ```tsx
 <KeyValueList
   items={[
-    ["TENANT", "SMARTBUY"],
+    ["TENANT", "ACME-INFRA"],
     ["CHANNEL", "SMS"],
     ["PROVIDER", "SINCH"],
     ["LATENCY", "362ms"],
@@ -1343,7 +1343,7 @@ RELAY / EVENT INFRASTRUCTURE
 
 EVENT DELIVERY CONTROL PLANE
 ────────────────────────────────────────────────────────────────────
-ENV PROD   TENANT SMARTBUY   REGION AP-SOUTH-1   REV 17
+ENV PROD   TENANT ACME-INFRA   REGION AP-SOUTH-1   REV 17
 
 
 EVENTS PROCESSED      DELIVERY RATE      FAILED        P95 LATENCY
@@ -1679,7 +1679,7 @@ RELAY / COMMUNICATION INFRASTRUCTURE
 
 EVENT DELIVERY CONTROL PLANE
 ──────────────────────────────────────────────────────────────────
-ENV PROD   TENANT SMARTBUY   REGION AP-SOUTH-1   REV 17
+ENV PROD   TENANT ACME-INFRA   REGION AP-SOUTH-1   REV 17
 
 EVENTS PROCESSED                                12,482
 LAST 24 HOURS

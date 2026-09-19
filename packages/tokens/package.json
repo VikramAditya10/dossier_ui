@@ -1,6 +1,6 @@
 {
   "name": "@vikramaditya1010/tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design tokens and generated CSS variables for Dossier UI technical interfaces",
   "type": "module",
   "main": "./dist/index.js",
