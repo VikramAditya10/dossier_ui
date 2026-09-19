@@ -2,6 +2,14 @@
 
 A React and CSS framework for technical interfaces: monospace typography, paper surfaces, dense tables, indexed sections, and sharp rules. Built from [the project brief](./Dossier_UI_Framework_Agent_Instructions.md).
 
+[![npm version](https://img.shields.io/npm/v/@vikramaditya1010/react.svg)](https://www.npmjs.com/package/@vikramaditya1010/react)
+[![Live Documentation](https://img.shields.io/badge/Live%20Docs-GitHub%20Pages-274c77)](https://vikramaditya10.github.io/dossier_ui/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+🌐 **Live Documentation & Component Explorer:**  
+**[https://vikramaditya10.github.io/dossier_ui/](https://vikramaditya10.github.io/dossier_ui/)**
+
+---
 ## Run and view the documentation
 
 Use **Node.js 22.18+** and **pnpm 10+**. From this directory:
