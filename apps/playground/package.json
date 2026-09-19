@@ -1,1 +1,6 @@
-{ "name": "@dossier-ui/playground", "version": "0.1.0", "private": true, "type": "module" }
+{
+  "name": "@vikramaditya1010/playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module"
+}

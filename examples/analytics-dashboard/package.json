@@ -1,1 +1,10 @@
-{ "name": "@dossier-ui/example-analytics", "private": true, "type": "module", "dependencies": { "@dossier-ui/react": "workspace:*", "react": "^19.1.1", "react-dom": "^19.1.1" } }
+{
+  "name": "@vikramaditya1010/example-analytics",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "@vikramaditya1010/react": "workspace:*"
+  }
+}
