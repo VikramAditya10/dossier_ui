@@ -25,7 +25,9 @@
     "release:check": "pnpm build:packages && pnpm typecheck && pnpm test && node scripts/preflight.mjs",
     "release:dry-run": "pnpm release:check && pnpm -r publish --dry-run --access public",
     "release": "pnpm release:check && node scripts/publish.mjs",
-    "publish:all": "node scripts/publish.mjs"
+    "publish:all": "node scripts/publish.mjs",
+    "build:docs": "vite build --config apps/docs/vite.config.ts",
+    "deploy:docs": "node scripts/deploy-gh-pages.mjs"
   },
   "dependencies": {
     "react": "^19.1.1",
